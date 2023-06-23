@@ -1,0 +1,21 @@
+.name1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 250px;
+}
+.btn{
+
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin: auto ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+
+    }
+    .formulo{
+        background-image: linear-gradient(rgb(78, 108, 132), white); 
+    }
