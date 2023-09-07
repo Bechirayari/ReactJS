@@ -1,11 +1,13 @@
 import React from 'react'
+// intergration du fichier CSS
 import './formo.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+ // composant de type function s'appel Formulo
 const Formulo = () => {
   return (
     <div>
+    // integration du formulaire à l'aide du composant de boostrap  ==> Form 
        <Form className='formulo'>
         <div className='name1'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -33,5 +35,5 @@ const Formulo = () => {
     </div>
   )
 }
-
+// exportation du composant Formulo pour qu'il peut etre importer dans plusieur composant 
 export default Formulo
