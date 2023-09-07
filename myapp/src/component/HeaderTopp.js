@@ -1,4 +1,5 @@
 import React from 'react'
+ // importation du conposant du boostrap Carousel
 import Carousel from 'react-bootstrap/Carousel';
 import l1 from '../img/m1.jpg'
 import l2 from '../img/m2.jpg'
@@ -6,7 +7,7 @@ import l3 from '../img/m3.jpg'
 const HeaderTopp = () => {
   return (
     <div>
-        
+        // creation du carousel à l'aide du composant du boostrap
         <Carousel>
       <Carousel.Item>
         <img
